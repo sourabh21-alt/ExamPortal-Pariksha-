@@ -1,0 +1,10 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.margin-left{
+    margin-left: 20px;
+}
+.margin-right{
+    margin-right: 50px;
+}

@@ -1,0 +1,14 @@
+.example-header-image {
+    background-image: url("../../../../assets/exam.png") ;
+    background-size:cover;
+}
+
+.margin-left{
+    margin-left: 20px;
+}
+.margin-top{
+    margin-top:20px;
+}
+.margin-bottom{
+    margin-bottom:20px;
+}

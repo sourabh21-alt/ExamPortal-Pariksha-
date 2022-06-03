@@ -1,0 +1,48 @@
+<mat-card>
+    <h1>Your profiles Details</h1>
+    <!-- {{user | json}} -->
+    <mat-card-content>
+        <div class="bootstrap-wrapper">
+            <div class="container">
+                <div class="container text-center">
+                    <img 
+                    src="../../../assets/logo.png"
+                    class="profile-image"
+
+                    />
+                    <h1>{{user.firstName}} {{user.lastName}}</h1>
+
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+
+                        <!-- table details -->
+                        <table class="table text-center">
+                            <tr>
+                                <td>Username</td>
+                                <td>{{user.username}}</td>
+                            </tr>
+                            <tr>
+                                <td>email</td>
+                                <td>{{user.email}}</td>
+                            </tr>
+                            <tr>
+                                <td>phone</td>
+                                <td>{{user.phone}}</td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </mat-card-content>
+    <!-- <mat-card-actions class="text-center">
+        <button mat-raised-button color="primary">UPDATE</button>
+        <button mat-raised-button color="accent">SHARE</button>
+    </mat-card-actions> -->
+</mat-card>

@@ -1,0 +1,15 @@
+.mt20{
+    margin-top: 20px;
+}
+
+.ml20{
+    margin-left: 20px;
+}
+
+.truncate{
+    display:block;
+    white-space: nowrap;
+    width:100%;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
